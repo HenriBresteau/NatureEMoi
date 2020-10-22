@@ -174,3 +174,15 @@ nav.nav li{
     grid-row: 3/5;
 
 }
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    margin: 20px 100px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+footer a.cgv{
+    text-decoration: none;
+    color: #ADD981;
+}
