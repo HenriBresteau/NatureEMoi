@@ -1,0 +1,7 @@
+body {
+    margin: 0 auto;
+}
+
+section.top-page {
+    background-image: url('./images/bg.jpg');
+}
