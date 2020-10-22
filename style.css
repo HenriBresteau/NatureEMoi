@@ -71,3 +71,65 @@ nav.nav li{
     width: 200px;
     text-align: center;
 }
+
+/* best-item */
+.section-title{
+    font-size: 50px;
+    font-family: 'Abril FatFace',cursive;
+    font-weight: 100;
+    position: relative;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+.bests-items {
+    margin: 100px;
+}
+.best-plants{
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.plant-box {
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+    position: relative;
+}
+.plant1 {
+    background-image: url(./images/nos_meilleures_ventes/1.jpg);
+}
+.plant2 {
+    background-image: url(./images/nos_meilleures_ventes/2.jpg);
+}
+.plant3 {
+    background-image: url(./images/nos_meilleures_ventes/3.jpg);
+}
+.plant4 {
+    background-image: url(./images/nos_meilleures_ventes/4.jpg);
+}
+.plant-details {
+    background-color: #FFFFFFDF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 20px;
+}
+.plant-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.plant-price {
+    color: #ADD981;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 3px;
+}
