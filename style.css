@@ -4,6 +4,9 @@
 *{
     font-family: 'Montserrat';
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0 auto;
 }
@@ -24,19 +27,21 @@ section.top-page {
 /* h1 */
 .landing-page{
     padding: 20px 50px;
+    position: relative;
 }
 .big-title {
     color:white;
     font-size: 80px;
     font-family: 'Abril FatFace',cursive;
     font-weight: 100;
+    width: 40%;
 }
 
 .scroll-down {
     color: white;
     text-decoration: none;
     position: absolute;
-    bottom: 160px;
+    bottom: 0;
 }
 
 /* menu de navigation */
@@ -47,8 +52,9 @@ nav.nav {
     margin-left: 30px;
     justify-content: space-between;
 }
-nav.nav li{
+nav.nav li a {
     color:white;
+    text-decoration: none;
 }
 
 /* services */
@@ -99,6 +105,7 @@ nav.nav li{
     background-size: cover;
     background-position: center;
     position: relative;
+    margin: 10px;
 }
 .no-grid{
     min-width: 350px;
@@ -131,7 +138,7 @@ nav.nav li{
 }
 .plant-price {
     color: #ADD981;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 16px;
     line-height: 3px;
 }
